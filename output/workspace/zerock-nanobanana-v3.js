@@ -11,8 +11,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
-const CREDENTIALS_PATH = 'REDACTED_KEY_PATH';
-const PROJECT_ID = 'REDACTED_PROJECT_ID';
+const CREDENTIALS_PATH = '/Users/hamamotoryuuta/Desktop/timewell-corp-key.json';
+const PROJECT_ID = 'gen-lang-client-0454362783';
 const WORKSPACE = __dirname;
 const SLIDES_DIR = path.join(WORKSPACE, 'v3-slides');
 

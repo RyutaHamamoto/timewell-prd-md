@@ -2,8 +2,8 @@ const { GoogleAuth } = require('google-auth-library');
 const fs = require('fs');
 const path = require('path');
 
-const CREDENTIALS_PATH = 'REDACTED_KEY_PATH';
-const PROJECT_ID = 'REDACTED_PROJECT_ID';
+const CREDENTIALS_PATH = '/Users/hamamotoryuuta/Desktop/timewell-corp-key.json';
+const PROJECT_ID = 'gen-lang-client-0454362783';
 const MODEL_ID = 'gemini-3-pro-image-preview';
 const GLOBAL_ENDPOINT = 'aiplatform.googleapis.com';
 const OUTPUT_PATH = '/Users/hamamotoryuuta/Documents/timewell-prd-md/output/workspace/v3-slides/slide-08-cta.png';
